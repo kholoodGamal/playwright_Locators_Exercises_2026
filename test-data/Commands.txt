@@ -1,0 +1,31 @@
+Starting:
+npm init playwright@latest
+
+
+Inside that directory, you can run se
+
+  npx playwright test
+    Runs the end-to-end tests.
+
+  npx playwright test --ui
+    Starts the interactive UI mode.
+
+  npx playwright test --project=chromium
+    Runs the tests only on Desktop Ch
+
+  npx playwright test example.spec.ts
+    Runs the tests in a specific file
+
+  npx playwright test --debug
+    Runs the tests in debug mode.
+
+  npx playwright codegen
+    Auto generate tests with Codegen.
+
+  npx playwright show-report 
+
+
+We suggest that you begin by typing:
+
+    npx playwright test
+
